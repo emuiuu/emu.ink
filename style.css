@@ -1,0 +1,47 @@
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #fcfbf7;
+  color: #1c1c1c;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo .name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.logo .tagline {
+  font-size: 0.9rem;
+  color: #888;
+  margin: 0.2rem 0 0;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main.content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
