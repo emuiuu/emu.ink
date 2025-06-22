@@ -1,47 +1,52 @@
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #fcfbf7;
-  color: #1c1c1c;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+    line-height: 1.8;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem;
-  border-bottom: 1px solid #e0e0e0;
+a {
+    color: white;
+    text-decoration: underline;
 }
 
-.logo .name {
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: #1c1c1c;
+a:hover {
+    text-decoration: none;
 }
 
-.logo .tagline {
-  font-size: 0.9rem;
-  color: #888;
-  margin: 0.2rem 0 0;
+nav {
+    display: flex;
+    gap: 40px;
+    margin-top: -30px;
+    margin-bottom: 60px;
+    font-weight: bold;
 }
 
 nav a {
-  margin-left: 1rem;
-  text-decoration: none;
-  color: #1c1c1c;
-  font-weight: 500;
+    color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-main.content {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
+h1, h2, h3, h4 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+hr {
+    border: 1px solid white;
+    margin: 40px 0;
 }
